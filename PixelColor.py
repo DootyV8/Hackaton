@@ -1,4 +1,4 @@
-import pyautogui
+qimport pyautogui
 import time
 from PIL import ImageGrab
 

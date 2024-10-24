@@ -16,7 +16,7 @@ def click(x,y):
 
 while keyboard.is_pressed('q') == False:
     flag = 0
-    pic = pyautogui.screenshot(region=(554, 310, 800, 550))
+    pic = pyautogui.screenshot(region=(890, 380, 1000, 600))
 
     width, height = pic.size
 
@@ -27,7 +27,7 @@ while keyboard.is_pressed('q') == False:
 
             if b == 34 and r == 255 and g == 87:
                 flag = 1
-                click(x+554, y+310)
+                click(x+890, y+380)
                 time.sleep(0.01)
                 break
 
